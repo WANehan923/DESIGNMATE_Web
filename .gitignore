@@ -22,4 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-serviceAccountKey.json
+
+# Firebase service account key
+backend/utils/serviceAccountKey.json
