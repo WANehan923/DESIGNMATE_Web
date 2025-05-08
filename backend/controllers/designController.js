@@ -20,16 +20,14 @@ exports.upload = multer({ storage }).single("bgImage");
 
 // Allowed object images
 const allowedImages = [
-  "bed1blue.png", "bed1red.png", "bed1white.png",
-  "bed2blue.png", "bed2red.png", "bed2white.png",
-  "chair1blue.png", "chair1brown.png", "chair1red.png", "chair1white.png",
-  "sofa1white.png", "sofa1blue.png", "sofa1brown.png",
-  "sofa2blue.png", "sofa2brown.png", "sofa2gray.png", "sofa2green.png",
-  "table1bl.png", "table1br.png", "table1w.png"
+  "D-Bed-Black.png", "D-Bed-Brown", "D-Bed-White.png",
+  "S-Bed-Black.png", "S-Bed-Brown.png", "S-Bed-White.png",
+  "Sofa-Black.png", "Sofa-Brown.png", "Sofa-White.png", "Sofa-White.png",
+  "Table-Brown.png", "Table-DBrown.png", "Table-White.png"
 ];
 
 const allowed3DModels = [
-  "Bookrack.glb", "gamingchair.glb", "Chair1.glb", "Chair2.glb", "coffeetable.glb", "rack2.glb", "soffaaaa.glb", "sofa1.glb", "couch02.glb"
+  "3Seater-Sofa-Black.glb", "Coffee-Table.glb", "Couch-Complete-Set.glb", "D-Bed-Black.glb", "D-Bed-Brown.glb", "D-Bed-Wood.glb", "Folding-Table.glb", "Wooden-Table-Black.glb", "Wooden-Table-Brown.glb", "Sofa-Black.glb", "Sofa-Green.glb"
 ];
 
 // Validate object images

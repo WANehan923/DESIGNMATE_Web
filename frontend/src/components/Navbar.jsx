@@ -52,6 +52,10 @@ const Navbar = () => {
               <Link className="nav-link" to="/explore">Explore</Link>
             </li>
 
+            <li className="nav-item">
+              <Link className="nav-link" to="/shop">Shop</Link>
+            </li>
+
             {/* Create Design Dropdown */}
             <li className="nav-item dropdown">
               <a

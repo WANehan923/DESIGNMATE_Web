@@ -135,15 +135,17 @@ const Design3D = () => {
   const navigate = useNavigate();
 
   const modelPaths = {
-    Bookrack: "/models/Bookrack.glb",
-    Chair1: "/models/Chair1.glb",
-    Chair2: "/models/Chair2.glb",
-    Coffeetable: "/models/coffeetable.glb",
-    GamingChair: "/models/gamingchair.glb",
-    Rack2: "/models/rack2.glb",
-    Couch: "/models/couch02.glb",
-    Sofa: "/models/sofa1.glb",
-    Sofa2: "/models/soffaaaa.glb",
+    SofaBlack_3Seater: "/models/3Seater-Sofa-Black.glb",
+    Coffee_Table: "/models/Coffee-Table.glb",
+    Couch_Complete_Set: "/models/Couch-Complete-Set.glb",
+    D_Bed_Black: "/models/D-Bed-Black.glb",
+    D_Bed_Brown: "/models/D-Bed-Brown.glb",
+    D_Bed_Wood: "/models/D-Bed-Wood.glb",
+    Folding_Table: "/models/Folding-Table.glb",
+    Wooden_Table_Black: "/models/Wooden-Table-Black.glb",
+    Wooden_Table_Black: "/models/Wooden-Table-Brown.glb",
+    Sofa_Black: "/models/Sofa-Black.glb",
+    Sofa_Green: "/models/Sofa-Green.glb",
   };
 
   const handleAddModel = () => {
@@ -172,6 +174,37 @@ const Design3D = () => {
   const deleteModel = (id) => {
     setModels((prev) => prev.filter((m) => m.id !== id));
     if (selectedModelId === id) setSelectedModelId(null);
+  };
+  const handleScaleUp = (id) => {
+    setModels((prev) =>
+      prev.map((m) =>
+        m.id === id ? { ...m, scale: m.scale.map((s) => s + 0.02) } : m
+      )
+    );
+  };
+
+  const handleScaleDown = (id) => {
+    setModels((prev) =>
+      prev.map((m) =>
+        m.id === id ? { ...m, scale: m.scale.map((s) => Math.max(0.01, s - 0.02)) } : m
+      )
+    );
+  };
+
+  const handleRotateLeft = (id) => {
+    setModels((prev) =>
+      prev.map((m) =>
+        m.id === id ? { ...m, rotation: [m.rotation[0], m.rotation[1] + 0.1, m.rotation[2]] } : m
+      )
+    );
+  };
+
+  const handleRotateRight = (id) => {
+    setModels((prev) =>
+      prev.map((m) =>
+        m.id === id ? { ...m, rotation: [m.rotation[0], m.rotation[1] - 0.1, m.rotation[2]] } : m
+      )
+    );
   };
 
   const handleSubmit = async () => {

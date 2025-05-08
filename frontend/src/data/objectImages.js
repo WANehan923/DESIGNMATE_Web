@@ -1,28 +1,19 @@
 const objectImages = [
-    { label: "Bed 1 Blue", type: "bed1blue", image: "/src/assets/2d/Bed/bed1blue.png" },
-    { label: "Bed 1 Red", type: "bed1red", image: "/src/assets/2d/Bed/bed1red.png" },
-    { label: "Bed 1 White", type: "bed1white", image: "/src/assets/2d/Bed/bed1white.png" },
-    { label: "Bed 2 Blue", type: "bed2blue", image: "/src/assets/2d/Bed/bed2blue.png" },
-    { label: "Bed 2 Red", type: "bed2red", image: "/src/assets/2d/Bed/bed2red.png" },
-    { label: "Bed 2 White", type: "bed2white", image: "/src/assets/2d/Bed/bed2white.png" },
+    { label: "Duble Bed Black", type: "D-Bed-Black", image: "/src/assets/2d/Bed/D-Bed-Black.png" },
+    { label: "Duble Bed Brown", type: "D-Bed-Brown", image: "/src/assets/2d/Bed/D-Bed-Brown.png" },
+    { label: "Duble Bed White", type: "D-Bed-White", image: "/src/assets/2d/Bed/D-Bed-White.png" },
+    { label: "Single Bed Black", type: "S-Bed-Black", image: "/src/assets/2d/Bed/S-Bed-Black.png" },
+    { label: "Single Bed Brown", type: "S-Bed-Brown", image: "/src/assets/2d/Bed/S-Bed-Brown.png" },
+    { label: "Single Bed White", type: "S-Bed-White", image: "/src/assets/2d/Bed/S-Bed-White.png" },
   
-    { label: "Chair 1 Blue", type: "chair1blue", image: "/src/assets/2d/Chair/chair1blue.png" },
-    { label: "Chair 1 Brown", type: "chair1brown", image: "/src/assets/2d/Chair/chair1brown.png" },
-    { label: "Chair 1 Red", type: "chair1red", image: "/src/assets/2d/Chair/chair1red.png" },
-    { label: "Chair 1 White", type: "chair1white", image: "/src/assets/2d/Chair/chair1white.png" },
-  
-    { label: "Sofa 1 Blue", type: "sofa1blue", image: "/src/assets/2d/Sofa/Sofa 1/sofa1blue.png" },
-    { label: "Sofa 1 Brown", type: "sofa1brown", image: "/src/assets/2d/Sofa/Sofa 1/sofa1brown.png" },
-    { label: "Sofa 1 White", type: "sofa1white", image: "/src/assets/2d/Sofa/Sofa 1/sofa1white.png" },
-  
-    { label: "Sofa 2 Blue", type: "sofa2blue", image: "/src/assets/2d/Sofa/Sofa 2/sofa2blue.png" },
-    { label: "Sofa 2 Brown", type: "sofa2brown", image: "/src/assets/2d/Sofa/Sofa 2/sofa2brown.png" },
-    { label: "Sofa 2 Gray", type: "sofa2gray", image: "/src/assets/2d/Sofa/Sofa 2/sofa2gray.png" },
-    { label: "Sofa 2 Green", type: "sofa2green", image: "/src/assets/2d/Sofa/Sofa 2/sofa2green.png" },
-  
-    { label: "Table Blue", type: "tablebl", image: "/src/assets/2d/Table/table1bl.png" },
-    { label: "Table Brown", type: "tablebr", image: "/src/assets/2d/Table/table1br.png" },
-    { label: "Table White", type: "tablew", image: "/src/assets/2d/Table/table1w.png" }
+    { label: "Sofa Black", type: "Sofa-Black", image: "/src/assets/2d/Sofa/Sofa-Black.png" },
+    { label: "Sofa Brown", type: "Sofa-Brown", image: "/src/assets/2d/Sofa/Sofa-Brown.png" },
+    { label: "Sofa White", type: "Sofa-White", image: "/src/assets/2d/Sofa/Sofa-White.png" },
+    { label: "Sofa Yellow", type: "Sofa-Yellow", image: "/src/assets/2d/Sofa/Sofa-Yellow.png" },
+
+    { label: "Table Brown", type: "Table-Brown", image: "/src/assets/2d/Table/Table-Brown.png" },
+    { label: "Table Dark Brown", type: "Table-DBrown", image: "/src/assets/2d/Table/Table-DBrown.png" },
+    { label: "Table White", type: "Table-White", image: "/src/assets/2d/Table/Table-White.png" }
   ];
   
   export default objectImages;
